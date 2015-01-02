@@ -1,0 +1,15 @@
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bin\Debug\ReverseMap\resources.pri
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bin\Debug\AppxManifest.xml
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bin\Debug\POS.build.appxrecipe
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\priconfig.xml
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\priconfig.xml.intermediate
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\layout.resfiles
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\layout.resfiles.intermediate
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\resources.resfiles
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\resources.resfiles.intermediate
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\pri.resfiles
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\pri.resfiles.intermediate
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\qualifiers.txt
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\qualifiers.txt.intermediate
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\ProjectArchitectures.txt

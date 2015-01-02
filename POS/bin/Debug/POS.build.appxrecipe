@@ -1,0 +1,2443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SEGIMIDAE01</Machine>
+    <WindowsUser>segimidae</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9975713a-eb30-405b-a756-92219706725b</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Content\ionic.css">
+      <PackagePath>Content\ionic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Content\ionic.min.css">
+      <PackagePath>Content\ionic.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-csp.css">
+      <PackagePath>Scripts\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\templates\browse.html">
+      <PackagePath>templates\browse.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\templates\login.html">
+      <PackagePath>templates\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\templates\menu.html">
+      <PackagePath>templates\menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\templates\playlist.html">
+      <PackagePath>templates\playlist.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\templates\playlists.html">
+      <PackagePath>templates\playlists.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\templates\search.html">
+      <PackagePath>templates\search.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\fonts\ionicons.eot">
+      <PackagePath>fonts\ionicons.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\fonts\ionicons.svg">
+      <PackagePath>fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\fonts\ionicons.ttf">
+      <PackagePath>fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\fonts\ionicons.woff">
+      <PackagePath>fonts\ionicons.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\js\app.js">
+      <PackagePath>js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\js\controllers.js">
+      <PackagePath>js\controllers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\js\jquery-1.8.2-win8-1.0.min.js">
+      <PackagePath>js\jquery-1.8.2-win8-1.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\js\jquery-win8-deferred.min.js">
+      <PackagePath>js\jquery-win8-deferred.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\js\winapphack.js">
+      <PackagePath>js\winapphack.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-animate.js">
+      <PackagePath>Scripts\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-animate.min.js">
+      <PackagePath>Scripts\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-aria.js">
+      <PackagePath>Scripts\angular-aria.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-aria.min.js">
+      <PackagePath>Scripts\angular-aria.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-cookies.js">
+      <PackagePath>Scripts\angular-cookies.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-cookies.min.js">
+      <PackagePath>Scripts\angular-cookies.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-loader.js">
+      <PackagePath>Scripts\angular-loader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-loader.min.js">
+      <PackagePath>Scripts\angular-loader.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-messages.js">
+      <PackagePath>Scripts\angular-messages.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-messages.min.js">
+      <PackagePath>Scripts\angular-messages.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-mocks.js">
+      <PackagePath>Scripts\angular-mocks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-resource.js">
+      <PackagePath>Scripts\angular-resource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-resource.min.js">
+      <PackagePath>Scripts\angular-resource.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-route.js">
+      <PackagePath>Scripts\angular-route.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-route.min.js">
+      <PackagePath>Scripts\angular-route.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-sanitize.js">
+      <PackagePath>Scripts\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-sanitize.min.js">
+      <PackagePath>Scripts\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-scenario.js">
+      <PackagePath>Scripts\angular-scenario.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-touch.js">
+      <PackagePath>Scripts\angular-touch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-touch.min.js">
+      <PackagePath>Scripts\angular-touch.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-ui-router.js">
+      <PackagePath>Scripts\angular-ui-router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-ui-router.min.js">
+      <PackagePath>Scripts\angular-ui-router.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular.js">
+      <PackagePath>Scripts\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular.min.js">
+      <PackagePath>Scripts\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_aa-dj.js">
+      <PackagePath>Scripts\i18n\angular-locale_aa-dj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_aa-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_aa-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_aa-et.js">
+      <PackagePath>Scripts\i18n\angular-locale_aa-et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_aa.js">
+      <PackagePath>Scripts\i18n\angular-locale_aa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_af-na.js">
+      <PackagePath>Scripts\i18n\angular-locale_af-na.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_af-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_af-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_af.js">
+      <PackagePath>Scripts\i18n\angular-locale_af.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_agq-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_agq-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_agq.js">
+      <PackagePath>Scripts\i18n\angular-locale_agq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ak-gh.js">
+      <PackagePath>Scripts\i18n\angular-locale_ak-gh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ak.js">
+      <PackagePath>Scripts\i18n\angular-locale_ak.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_am-et.js">
+      <PackagePath>Scripts\i18n\angular-locale_am-et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_am.js">
+      <PackagePath>Scripts\i18n\angular-locale_am.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-001.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-001.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-ae.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-ae.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-bh.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-bh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-dj.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-dj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-dz.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-dz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-eg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-eg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-eh.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-eh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-il.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-il.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-iq.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-iq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-jo.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-jo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-km.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-km.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-kw.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-kw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-lb.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-lb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-ly.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-ly.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-ma.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-mr.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-mr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-om.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-om.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-ps.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-ps.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-qa.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-qa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-sa.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-sa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-sd.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-sd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-so.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-so.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-ss.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-ss.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-sy.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-sy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-td.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-td.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-tn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-tn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar-ye.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar-ye.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ar.js">
+      <PackagePath>Scripts\i18n\angular-locale_ar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_as-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_as-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_as.js">
+      <PackagePath>Scripts\i18n\angular-locale_as.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_asa-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_asa-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_asa.js">
+      <PackagePath>Scripts\i18n\angular-locale_asa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ast-es.js">
+      <PackagePath>Scripts\i18n\angular-locale_ast-es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ast.js">
+      <PackagePath>Scripts\i18n\angular-locale_ast.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_az-cyrl-az.js">
+      <PackagePath>Scripts\i18n\angular-locale_az-cyrl-az.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_az-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_az-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_az-latn-az.js">
+      <PackagePath>Scripts\i18n\angular-locale_az-latn-az.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_az-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_az-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_az.js">
+      <PackagePath>Scripts\i18n\angular-locale_az.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bas-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_bas-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bas.js">
+      <PackagePath>Scripts\i18n\angular-locale_bas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_be-by.js">
+      <PackagePath>Scripts\i18n\angular-locale_be-by.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_be.js">
+      <PackagePath>Scripts\i18n\angular-locale_be.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bem-zm.js">
+      <PackagePath>Scripts\i18n\angular-locale_bem-zm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bem.js">
+      <PackagePath>Scripts\i18n\angular-locale_bem.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bez-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_bez-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bez.js">
+      <PackagePath>Scripts\i18n\angular-locale_bez.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bg-bg.js">
+      <PackagePath>Scripts\i18n\angular-locale_bg-bg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bg.js">
+      <PackagePath>Scripts\i18n\angular-locale_bg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bm-ml.js">
+      <PackagePath>Scripts\i18n\angular-locale_bm-ml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bm.js">
+      <PackagePath>Scripts\i18n\angular-locale_bm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bn-bd.js">
+      <PackagePath>Scripts\i18n\angular-locale_bn-bd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bn-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_bn-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bn.js">
+      <PackagePath>Scripts\i18n\angular-locale_bn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bo-cn.js">
+      <PackagePath>Scripts\i18n\angular-locale_bo-cn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bo-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_bo-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bo.js">
+      <PackagePath>Scripts\i18n\angular-locale_bo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_br-fr.js">
+      <PackagePath>Scripts\i18n\angular-locale_br-fr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_br.js">
+      <PackagePath>Scripts\i18n\angular-locale_br.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_brx-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_brx-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_brx.js">
+      <PackagePath>Scripts\i18n\angular-locale_brx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bs-cyrl-ba.js">
+      <PackagePath>Scripts\i18n\angular-locale_bs-cyrl-ba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bs-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_bs-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bs-latn-ba.js">
+      <PackagePath>Scripts\i18n\angular-locale_bs-latn-ba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bs-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_bs-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_bs.js">
+      <PackagePath>Scripts\i18n\angular-locale_bs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_byn-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_byn-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_byn.js">
+      <PackagePath>Scripts\i18n\angular-locale_byn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ca-ad.js">
+      <PackagePath>Scripts\i18n\angular-locale_ca-ad.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ca-es-valencia.js">
+      <PackagePath>Scripts\i18n\angular-locale_ca-es-valencia.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ca-es.js">
+      <PackagePath>Scripts\i18n\angular-locale_ca-es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ca-fr.js">
+      <PackagePath>Scripts\i18n\angular-locale_ca-fr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ca-it.js">
+      <PackagePath>Scripts\i18n\angular-locale_ca-it.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ca.js">
+      <PackagePath>Scripts\i18n\angular-locale_ca.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_cgg-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_cgg-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_cgg.js">
+      <PackagePath>Scripts\i18n\angular-locale_cgg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_chr-us.js">
+      <PackagePath>Scripts\i18n\angular-locale_chr-us.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_chr.js">
+      <PackagePath>Scripts\i18n\angular-locale_chr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-arab-iq.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-arab-iq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-arab-ir.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-arab-ir.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-arab.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-arab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-iq.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-iq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-ir.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-ir.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-latn-iq.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-latn-iq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ckb.js">
+      <PackagePath>Scripts\i18n\angular-locale_ckb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_cs-cz.js">
+      <PackagePath>Scripts\i18n\angular-locale_cs-cz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_cs.js">
+      <PackagePath>Scripts\i18n\angular-locale_cs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_cy-gb.js">
+      <PackagePath>Scripts\i18n\angular-locale_cy-gb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_cy.js">
+      <PackagePath>Scripts\i18n\angular-locale_cy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_da-dk.js">
+      <PackagePath>Scripts\i18n\angular-locale_da-dk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_da-gl.js">
+      <PackagePath>Scripts\i18n\angular-locale_da-gl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_da.js">
+      <PackagePath>Scripts\i18n\angular-locale_da.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dav-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_dav-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dav.js">
+      <PackagePath>Scripts\i18n\angular-locale_dav.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de-at.js">
+      <PackagePath>Scripts\i18n\angular-locale_de-at.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de-be.js">
+      <PackagePath>Scripts\i18n\angular-locale_de-be.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de-ch.js">
+      <PackagePath>Scripts\i18n\angular-locale_de-ch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de-de.js">
+      <PackagePath>Scripts\i18n\angular-locale_de-de.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de-li.js">
+      <PackagePath>Scripts\i18n\angular-locale_de-li.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de-lu.js">
+      <PackagePath>Scripts\i18n\angular-locale_de-lu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_de.js">
+      <PackagePath>Scripts\i18n\angular-locale_de.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dje-ne.js">
+      <PackagePath>Scripts\i18n\angular-locale_dje-ne.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dje.js">
+      <PackagePath>Scripts\i18n\angular-locale_dje.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dua-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_dua-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dua.js">
+      <PackagePath>Scripts\i18n\angular-locale_dua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dyo-sn.js">
+      <PackagePath>Scripts\i18n\angular-locale_dyo-sn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dyo.js">
+      <PackagePath>Scripts\i18n\angular-locale_dyo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dz-bt.js">
+      <PackagePath>Scripts\i18n\angular-locale_dz-bt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_dz.js">
+      <PackagePath>Scripts\i18n\angular-locale_dz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ebu-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_ebu-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ebu.js">
+      <PackagePath>Scripts\i18n\angular-locale_ebu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ee-gh.js">
+      <PackagePath>Scripts\i18n\angular-locale_ee-gh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ee-tg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ee-tg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ee.js">
+      <PackagePath>Scripts\i18n\angular-locale_ee.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_el-cy.js">
+      <PackagePath>Scripts\i18n\angular-locale_el-cy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_el-gr.js">
+      <PackagePath>Scripts\i18n\angular-locale_el-gr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_el.js">
+      <PackagePath>Scripts\i18n\angular-locale_el.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-001.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-001.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-150.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-150.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ag.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ai.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ai.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-as.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-as.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-au.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-au.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-bb.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-bb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-be.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-be.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-bm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-bm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-bs.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-bs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-bw.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-bw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-bz.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-bz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ca.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ca.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-cc.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-cc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ck.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ck.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-cx.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-cx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-dg.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-dg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-dm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-dm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-dsrt-us.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-dsrt-us.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-dsrt.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-dsrt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-fj.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-fj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-fk.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-fk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-fm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-fm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gb.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gd.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gg.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gh.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gi.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gu.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-gy.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-gy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-hk.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-hk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ie.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-im.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-im.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-io.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-io.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-iso.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-iso.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-je.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-je.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-jm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-jm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ki.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ki.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-kn.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-kn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ky.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ky.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-lc.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-lc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-lr.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-lr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ls.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ls.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mg.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mh.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mo.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mp.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ms.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ms.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mt.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mu.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-mw.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-mw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-na.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-na.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-nf.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-nf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ng.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ng.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-nr.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-nr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-nu.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-nu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-nz.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-nz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-pg.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-pg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ph.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ph.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-pk.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-pk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-pn.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-pn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-pr.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-pr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-pw.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-pw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-rw.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-rw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sb.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sc.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sd.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sg.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sh.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sl.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ss.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ss.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sx.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-sz.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-sz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-tc.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-tc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-tk.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-tk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-to.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-to.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-tt.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-tt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-tv.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-tv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-um.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-um.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-us.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-us.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-vc.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-vc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-vg.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-vg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-vi.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-vi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-vu.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-vu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-ws.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-ws.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-zm.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-zm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en-zw.js">
+      <PackagePath>Scripts\i18n\angular-locale_en-zw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_en.js">
+      <PackagePath>Scripts\i18n\angular-locale_en.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_eo-001.js">
+      <PackagePath>Scripts\i18n\angular-locale_eo-001.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_eo.js">
+      <PackagePath>Scripts\i18n\angular-locale_eo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-419.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-419.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ar.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-bo.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-bo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-cl.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-cl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-co.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-co.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-cr.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-cr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-cu.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-cu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-do.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-do.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ea.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ea.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ec.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-es.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-gq.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-gq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-gt.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-gt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-hn.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-hn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ic.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-mx.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-mx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ni.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ni.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-pa.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-pa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-pe.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-pe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ph.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ph.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-pr.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-pr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-py.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-py.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-sv.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-sv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-us.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-us.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-uy.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-uy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es-ve.js">
+      <PackagePath>Scripts\i18n\angular-locale_es-ve.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_es.js">
+      <PackagePath>Scripts\i18n\angular-locale_es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_et-ee.js">
+      <PackagePath>Scripts\i18n\angular-locale_et-ee.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_et.js">
+      <PackagePath>Scripts\i18n\angular-locale_et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_eu-es.js">
+      <PackagePath>Scripts\i18n\angular-locale_eu-es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_eu.js">
+      <PackagePath>Scripts\i18n\angular-locale_eu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ewo-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_ewo-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ewo.js">
+      <PackagePath>Scripts\i18n\angular-locale_ewo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fa-af.js">
+      <PackagePath>Scripts\i18n\angular-locale_fa-af.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fa-ir.js">
+      <PackagePath>Scripts\i18n\angular-locale_fa-ir.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fa.js">
+      <PackagePath>Scripts\i18n\angular-locale_fa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ff-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_ff-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ff-gn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ff-gn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ff-mr.js">
+      <PackagePath>Scripts\i18n\angular-locale_ff-mr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ff-sn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ff-sn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ff.js">
+      <PackagePath>Scripts\i18n\angular-locale_ff.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fi-fi.js">
+      <PackagePath>Scripts\i18n\angular-locale_fi-fi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fi.js">
+      <PackagePath>Scripts\i18n\angular-locale_fi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fil-ph.js">
+      <PackagePath>Scripts\i18n\angular-locale_fil-ph.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fil.js">
+      <PackagePath>Scripts\i18n\angular-locale_fil.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fo-fo.js">
+      <PackagePath>Scripts\i18n\angular-locale_fo-fo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fo.js">
+      <PackagePath>Scripts\i18n\angular-locale_fo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-be.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-be.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-bf.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-bf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-bi.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-bi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-bj.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-bj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-bl.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-bl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ca.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ca.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-cd.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-cd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-cf.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-cf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-cg.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-cg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ch.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ci.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ci.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-dj.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-dj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-dz.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-dz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-fr.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-fr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ga.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ga.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-gf.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-gf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-gn.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-gn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-gp.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-gp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-gq.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-gq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ht.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ht.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-km.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-km.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-lu.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-lu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ma.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-mc.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-mc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-mf.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-mf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-mg.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-mg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ml.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-mq.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-mq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-mr.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-mr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-mu.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-mu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-nc.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-nc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-ne.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-ne.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-pf.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-pf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-pm.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-pm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-re.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-re.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-rw.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-rw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-sc.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-sc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-sn.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-sn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-sy.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-sy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-td.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-td.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-tg.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-tg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-tn.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-tn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-vu.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-vu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-wf.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-wf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr-yt.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr-yt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fr.js">
+      <PackagePath>Scripts\i18n\angular-locale_fr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fur-it.js">
+      <PackagePath>Scripts\i18n\angular-locale_fur-it.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fur.js">
+      <PackagePath>Scripts\i18n\angular-locale_fur.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fy-nl.js">
+      <PackagePath>Scripts\i18n\angular-locale_fy-nl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_fy.js">
+      <PackagePath>Scripts\i18n\angular-locale_fy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ga-ie.js">
+      <PackagePath>Scripts\i18n\angular-locale_ga-ie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ga.js">
+      <PackagePath>Scripts\i18n\angular-locale_ga.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gd-gb.js">
+      <PackagePath>Scripts\i18n\angular-locale_gd-gb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gd.js">
+      <PackagePath>Scripts\i18n\angular-locale_gd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gl-es.js">
+      <PackagePath>Scripts\i18n\angular-locale_gl-es.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gl.js">
+      <PackagePath>Scripts\i18n\angular-locale_gl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gsw-ch.js">
+      <PackagePath>Scripts\i18n\angular-locale_gsw-ch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gsw-li.js">
+      <PackagePath>Scripts\i18n\angular-locale_gsw-li.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gsw.js">
+      <PackagePath>Scripts\i18n\angular-locale_gsw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gu-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_gu-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gu.js">
+      <PackagePath>Scripts\i18n\angular-locale_gu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_guz-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_guz-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_guz.js">
+      <PackagePath>Scripts\i18n\angular-locale_guz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gv-im.js">
+      <PackagePath>Scripts\i18n\angular-locale_gv-im.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_gv.js">
+      <PackagePath>Scripts\i18n\angular-locale_gv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ha-latn-gh.js">
+      <PackagePath>Scripts\i18n\angular-locale_ha-latn-gh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ha-latn-ne.js">
+      <PackagePath>Scripts\i18n\angular-locale_ha-latn-ne.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ha-latn-ng.js">
+      <PackagePath>Scripts\i18n\angular-locale_ha-latn-ng.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ha-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ha-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ha.js">
+      <PackagePath>Scripts\i18n\angular-locale_ha.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_haw-us.js">
+      <PackagePath>Scripts\i18n\angular-locale_haw-us.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_haw.js">
+      <PackagePath>Scripts\i18n\angular-locale_haw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_he-il.js">
+      <PackagePath>Scripts\i18n\angular-locale_he-il.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_he.js">
+      <PackagePath>Scripts\i18n\angular-locale_he.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hi-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_hi-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hi.js">
+      <PackagePath>Scripts\i18n\angular-locale_hi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hr-ba.js">
+      <PackagePath>Scripts\i18n\angular-locale_hr-ba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hr-hr.js">
+      <PackagePath>Scripts\i18n\angular-locale_hr-hr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hr.js">
+      <PackagePath>Scripts\i18n\angular-locale_hr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hu-hu.js">
+      <PackagePath>Scripts\i18n\angular-locale_hu-hu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hu.js">
+      <PackagePath>Scripts\i18n\angular-locale_hu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hy-am.js">
+      <PackagePath>Scripts\i18n\angular-locale_hy-am.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_hy.js">
+      <PackagePath>Scripts\i18n\angular-locale_hy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ia-fr.js">
+      <PackagePath>Scripts\i18n\angular-locale_ia-fr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ia.js">
+      <PackagePath>Scripts\i18n\angular-locale_ia.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_id-id.js">
+      <PackagePath>Scripts\i18n\angular-locale_id-id.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_id.js">
+      <PackagePath>Scripts\i18n\angular-locale_id.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ig-ng.js">
+      <PackagePath>Scripts\i18n\angular-locale_ig-ng.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ig.js">
+      <PackagePath>Scripts\i18n\angular-locale_ig.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ii-cn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ii-cn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ii.js">
+      <PackagePath>Scripts\i18n\angular-locale_ii.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_in.js">
+      <PackagePath>Scripts\i18n\angular-locale_in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_is-is.js">
+      <PackagePath>Scripts\i18n\angular-locale_is-is.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_is.js">
+      <PackagePath>Scripts\i18n\angular-locale_is.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_it-ch.js">
+      <PackagePath>Scripts\i18n\angular-locale_it-ch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_it-it.js">
+      <PackagePath>Scripts\i18n\angular-locale_it-it.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_it-sm.js">
+      <PackagePath>Scripts\i18n\angular-locale_it-sm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_it.js">
+      <PackagePath>Scripts\i18n\angular-locale_it.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_iw.js">
+      <PackagePath>Scripts\i18n\angular-locale_iw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ja-jp.js">
+      <PackagePath>Scripts\i18n\angular-locale_ja-jp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ja.js">
+      <PackagePath>Scripts\i18n\angular-locale_ja.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_jgo-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_jgo-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_jgo.js">
+      <PackagePath>Scripts\i18n\angular-locale_jgo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_jmc-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_jmc-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_jmc.js">
+      <PackagePath>Scripts\i18n\angular-locale_jmc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ka-ge.js">
+      <PackagePath>Scripts\i18n\angular-locale_ka-ge.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ka.js">
+      <PackagePath>Scripts\i18n\angular-locale_ka.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kab-dz.js">
+      <PackagePath>Scripts\i18n\angular-locale_kab-dz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kab.js">
+      <PackagePath>Scripts\i18n\angular-locale_kab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kam-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_kam-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kam.js">
+      <PackagePath>Scripts\i18n\angular-locale_kam.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kde-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_kde-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kde.js">
+      <PackagePath>Scripts\i18n\angular-locale_kde.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kea-cv.js">
+      <PackagePath>Scripts\i18n\angular-locale_kea-cv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kea.js">
+      <PackagePath>Scripts\i18n\angular-locale_kea.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_khq-ml.js">
+      <PackagePath>Scripts\i18n\angular-locale_khq-ml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_khq.js">
+      <PackagePath>Scripts\i18n\angular-locale_khq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ki-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_ki-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ki.js">
+      <PackagePath>Scripts\i18n\angular-locale_ki.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kk-cyrl-kz.js">
+      <PackagePath>Scripts\i18n\angular-locale_kk-cyrl-kz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kk-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_kk-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kk.js">
+      <PackagePath>Scripts\i18n\angular-locale_kk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kkj-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_kkj-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kkj.js">
+      <PackagePath>Scripts\i18n\angular-locale_kkj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kl-gl.js">
+      <PackagePath>Scripts\i18n\angular-locale_kl-gl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kl.js">
+      <PackagePath>Scripts\i18n\angular-locale_kl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kln-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_kln-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kln.js">
+      <PackagePath>Scripts\i18n\angular-locale_kln.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_km-kh.js">
+      <PackagePath>Scripts\i18n\angular-locale_km-kh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_km.js">
+      <PackagePath>Scripts\i18n\angular-locale_km.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kn-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_kn-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kn.js">
+      <PackagePath>Scripts\i18n\angular-locale_kn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ko-kp.js">
+      <PackagePath>Scripts\i18n\angular-locale_ko-kp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ko-kr.js">
+      <PackagePath>Scripts\i18n\angular-locale_ko-kr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ko.js">
+      <PackagePath>Scripts\i18n\angular-locale_ko.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kok-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_kok-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kok.js">
+      <PackagePath>Scripts\i18n\angular-locale_kok.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ks-arab-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_ks-arab-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ks-arab.js">
+      <PackagePath>Scripts\i18n\angular-locale_ks-arab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ks.js">
+      <PackagePath>Scripts\i18n\angular-locale_ks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ksb-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_ksb-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ksb.js">
+      <PackagePath>Scripts\i18n\angular-locale_ksb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ksf-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_ksf-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ksf.js">
+      <PackagePath>Scripts\i18n\angular-locale_ksf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ksh-de.js">
+      <PackagePath>Scripts\i18n\angular-locale_ksh-de.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ksh.js">
+      <PackagePath>Scripts\i18n\angular-locale_ksh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kw-gb.js">
+      <PackagePath>Scripts\i18n\angular-locale_kw-gb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_kw.js">
+      <PackagePath>Scripts\i18n\angular-locale_kw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ky-cyrl-kg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ky-cyrl-kg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ky-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_ky-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ky.js">
+      <PackagePath>Scripts\i18n\angular-locale_ky.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lag-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_lag-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lag.js">
+      <PackagePath>Scripts\i18n\angular-locale_lag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lg-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_lg-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lg.js">
+      <PackagePath>Scripts\i18n\angular-locale_lg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lkt-us.js">
+      <PackagePath>Scripts\i18n\angular-locale_lkt-us.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lkt.js">
+      <PackagePath>Scripts\i18n\angular-locale_lkt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ln-ao.js">
+      <PackagePath>Scripts\i18n\angular-locale_ln-ao.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ln-cd.js">
+      <PackagePath>Scripts\i18n\angular-locale_ln-cd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ln-cf.js">
+      <PackagePath>Scripts\i18n\angular-locale_ln-cf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ln-cg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ln-cg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ln.js">
+      <PackagePath>Scripts\i18n\angular-locale_ln.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lo-la.js">
+      <PackagePath>Scripts\i18n\angular-locale_lo-la.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lo.js">
+      <PackagePath>Scripts\i18n\angular-locale_lo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lt-lt.js">
+      <PackagePath>Scripts\i18n\angular-locale_lt-lt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lt.js">
+      <PackagePath>Scripts\i18n\angular-locale_lt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lu-cd.js">
+      <PackagePath>Scripts\i18n\angular-locale_lu-cd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lu.js">
+      <PackagePath>Scripts\i18n\angular-locale_lu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_luo-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_luo-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_luo.js">
+      <PackagePath>Scripts\i18n\angular-locale_luo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_luy-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_luy-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_luy.js">
+      <PackagePath>Scripts\i18n\angular-locale_luy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lv-lv.js">
+      <PackagePath>Scripts\i18n\angular-locale_lv-lv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_lv.js">
+      <PackagePath>Scripts\i18n\angular-locale_lv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mas-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_mas-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mas-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_mas-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mas.js">
+      <PackagePath>Scripts\i18n\angular-locale_mas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mer-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_mer-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mer.js">
+      <PackagePath>Scripts\i18n\angular-locale_mer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mfe-mu.js">
+      <PackagePath>Scripts\i18n\angular-locale_mfe-mu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mfe.js">
+      <PackagePath>Scripts\i18n\angular-locale_mfe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mg-mg.js">
+      <PackagePath>Scripts\i18n\angular-locale_mg-mg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mg.js">
+      <PackagePath>Scripts\i18n\angular-locale_mg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mgh-mz.js">
+      <PackagePath>Scripts\i18n\angular-locale_mgh-mz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mgh.js">
+      <PackagePath>Scripts\i18n\angular-locale_mgh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mgo-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_mgo-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mgo.js">
+      <PackagePath>Scripts\i18n\angular-locale_mgo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mk-mk.js">
+      <PackagePath>Scripts\i18n\angular-locale_mk-mk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mk.js">
+      <PackagePath>Scripts\i18n\angular-locale_mk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ml-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_ml-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ml.js">
+      <PackagePath>Scripts\i18n\angular-locale_ml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mn-cyrl-mn.js">
+      <PackagePath>Scripts\i18n\angular-locale_mn-cyrl-mn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mn-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_mn-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mn.js">
+      <PackagePath>Scripts\i18n\angular-locale_mn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mr-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_mr-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mr.js">
+      <PackagePath>Scripts\i18n\angular-locale_mr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms-bn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms-bn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms-latn-bn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms-latn-bn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms-latn-my.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms-latn-my.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms-latn-sg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms-latn-sg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms-my.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms-my.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ms.js">
+      <PackagePath>Scripts\i18n\angular-locale_ms.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mt-mt.js">
+      <PackagePath>Scripts\i18n\angular-locale_mt-mt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mt.js">
+      <PackagePath>Scripts\i18n\angular-locale_mt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mua-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_mua-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_mua.js">
+      <PackagePath>Scripts\i18n\angular-locale_mua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_my-mm.js">
+      <PackagePath>Scripts\i18n\angular-locale_my-mm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_my.js">
+      <PackagePath>Scripts\i18n\angular-locale_my.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_naq-na.js">
+      <PackagePath>Scripts\i18n\angular-locale_naq-na.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_naq.js">
+      <PackagePath>Scripts\i18n\angular-locale_naq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nb-no.js">
+      <PackagePath>Scripts\i18n\angular-locale_nb-no.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nb-sj.js">
+      <PackagePath>Scripts\i18n\angular-locale_nb-sj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nb.js">
+      <PackagePath>Scripts\i18n\angular-locale_nb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nd-zw.js">
+      <PackagePath>Scripts\i18n\angular-locale_nd-zw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nd.js">
+      <PackagePath>Scripts\i18n\angular-locale_nd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ne-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_ne-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ne-np.js">
+      <PackagePath>Scripts\i18n\angular-locale_ne-np.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ne.js">
+      <PackagePath>Scripts\i18n\angular-locale_ne.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-aw.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-aw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-be.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-be.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-bq.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-bq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-cw.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-cw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-nl.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-nl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-sr.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-sr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl-sx.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl-sx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nl.js">
+      <PackagePath>Scripts\i18n\angular-locale_nl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nmg-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_nmg-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nmg.js">
+      <PackagePath>Scripts\i18n\angular-locale_nmg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nn-no.js">
+      <PackagePath>Scripts\i18n\angular-locale_nn-no.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nn.js">
+      <PackagePath>Scripts\i18n\angular-locale_nn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nnh-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_nnh-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nnh.js">
+      <PackagePath>Scripts\i18n\angular-locale_nnh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_no-no.js">
+      <PackagePath>Scripts\i18n\angular-locale_no-no.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_no.js">
+      <PackagePath>Scripts\i18n\angular-locale_no.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nr-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_nr-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nr.js">
+      <PackagePath>Scripts\i18n\angular-locale_nr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nso-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_nso-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nso.js">
+      <PackagePath>Scripts\i18n\angular-locale_nso.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nus-sd.js">
+      <PackagePath>Scripts\i18n\angular-locale_nus-sd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nus.js">
+      <PackagePath>Scripts\i18n\angular-locale_nus.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nyn-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_nyn-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_nyn.js">
+      <PackagePath>Scripts\i18n\angular-locale_nyn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_om-et.js">
+      <PackagePath>Scripts\i18n\angular-locale_om-et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_om-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_om-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_om.js">
+      <PackagePath>Scripts\i18n\angular-locale_om.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_or-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_or-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_or.js">
+      <PackagePath>Scripts\i18n\angular-locale_or.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_os-ge.js">
+      <PackagePath>Scripts\i18n\angular-locale_os-ge.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_os-ru.js">
+      <PackagePath>Scripts\i18n\angular-locale_os-ru.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_os.js">
+      <PackagePath>Scripts\i18n\angular-locale_os.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pa-arab-pk.js">
+      <PackagePath>Scripts\i18n\angular-locale_pa-arab-pk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pa-arab.js">
+      <PackagePath>Scripts\i18n\angular-locale_pa-arab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pa-guru-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_pa-guru-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pa-guru.js">
+      <PackagePath>Scripts\i18n\angular-locale_pa-guru.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pa.js">
+      <PackagePath>Scripts\i18n\angular-locale_pa.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pl-pl.js">
+      <PackagePath>Scripts\i18n\angular-locale_pl-pl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pl.js">
+      <PackagePath>Scripts\i18n\angular-locale_pl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ps-af.js">
+      <PackagePath>Scripts\i18n\angular-locale_ps-af.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ps.js">
+      <PackagePath>Scripts\i18n\angular-locale_ps.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-ao.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-ao.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-br.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-br.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-cv.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-cv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-gw.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-gw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-mo.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-mo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-mz.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-mz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-pt.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-pt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-st.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-st.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt-tl.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt-tl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_pt.js">
+      <PackagePath>Scripts\i18n\angular-locale_pt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rm-ch.js">
+      <PackagePath>Scripts\i18n\angular-locale_rm-ch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rm.js">
+      <PackagePath>Scripts\i18n\angular-locale_rm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rn-bi.js">
+      <PackagePath>Scripts\i18n\angular-locale_rn-bi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rn.js">
+      <PackagePath>Scripts\i18n\angular-locale_rn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ro-md.js">
+      <PackagePath>Scripts\i18n\angular-locale_ro-md.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ro-ro.js">
+      <PackagePath>Scripts\i18n\angular-locale_ro-ro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ro.js">
+      <PackagePath>Scripts\i18n\angular-locale_ro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rof-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_rof-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rof.js">
+      <PackagePath>Scripts\i18n\angular-locale_rof.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru-by.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru-by.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru-kg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru-kg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru-kz.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru-kz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru-md.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru-md.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru-ru.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru-ru.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru-ua.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru-ua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ru.js">
+      <PackagePath>Scripts\i18n\angular-locale_ru.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rw-rw.js">
+      <PackagePath>Scripts\i18n\angular-locale_rw-rw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rw.js">
+      <PackagePath>Scripts\i18n\angular-locale_rw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rwk-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_rwk-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_rwk.js">
+      <PackagePath>Scripts\i18n\angular-locale_rwk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sah-ru.js">
+      <PackagePath>Scripts\i18n\angular-locale_sah-ru.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sah.js">
+      <PackagePath>Scripts\i18n\angular-locale_sah.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_saq-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_saq-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_saq.js">
+      <PackagePath>Scripts\i18n\angular-locale_saq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sbp-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_sbp-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sbp.js">
+      <PackagePath>Scripts\i18n\angular-locale_sbp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_se-fi.js">
+      <PackagePath>Scripts\i18n\angular-locale_se-fi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_se-no.js">
+      <PackagePath>Scripts\i18n\angular-locale_se-no.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_se.js">
+      <PackagePath>Scripts\i18n\angular-locale_se.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_seh-mz.js">
+      <PackagePath>Scripts\i18n\angular-locale_seh-mz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_seh.js">
+      <PackagePath>Scripts\i18n\angular-locale_seh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ses-ml.js">
+      <PackagePath>Scripts\i18n\angular-locale_ses-ml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ses.js">
+      <PackagePath>Scripts\i18n\angular-locale_ses.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sg-cf.js">
+      <PackagePath>Scripts\i18n\angular-locale_sg-cf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sg.js">
+      <PackagePath>Scripts\i18n\angular-locale_sg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_shi-latn-ma.js">
+      <PackagePath>Scripts\i18n\angular-locale_shi-latn-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_shi-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_shi-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_shi-tfng-ma.js">
+      <PackagePath>Scripts\i18n\angular-locale_shi-tfng-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_shi-tfng.js">
+      <PackagePath>Scripts\i18n\angular-locale_shi-tfng.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_shi.js">
+      <PackagePath>Scripts\i18n\angular-locale_shi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_si-lk.js">
+      <PackagePath>Scripts\i18n\angular-locale_si-lk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_si.js">
+      <PackagePath>Scripts\i18n\angular-locale_si.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sk-sk.js">
+      <PackagePath>Scripts\i18n\angular-locale_sk-sk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sk.js">
+      <PackagePath>Scripts\i18n\angular-locale_sk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sl-si.js">
+      <PackagePath>Scripts\i18n\angular-locale_sl-si.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sl.js">
+      <PackagePath>Scripts\i18n\angular-locale_sl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sn-zw.js">
+      <PackagePath>Scripts\i18n\angular-locale_sn-zw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sn.js">
+      <PackagePath>Scripts\i18n\angular-locale_sn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_so-dj.js">
+      <PackagePath>Scripts\i18n\angular-locale_so-dj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_so-et.js">
+      <PackagePath>Scripts\i18n\angular-locale_so-et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_so-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_so-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_so-so.js">
+      <PackagePath>Scripts\i18n\angular-locale_so-so.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_so.js">
+      <PackagePath>Scripts\i18n\angular-locale_so.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sq-al.js">
+      <PackagePath>Scripts\i18n\angular-locale_sq-al.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sq-mk.js">
+      <PackagePath>Scripts\i18n\angular-locale_sq-mk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sq-xk.js">
+      <PackagePath>Scripts\i18n\angular-locale_sq-xk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sq.js">
+      <PackagePath>Scripts\i18n\angular-locale_sq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-cyrl-ba.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-cyrl-ba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-cyrl-me.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-cyrl-me.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-cyrl-rs.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-cyrl-rs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-cyrl-xk.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-cyrl-xk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-latn-ba.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-latn-ba.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-latn-me.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-latn-me.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-latn-rs.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-latn-rs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-latn-xk.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-latn-xk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sr.js">
+      <PackagePath>Scripts\i18n\angular-locale_sr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ss-sz.js">
+      <PackagePath>Scripts\i18n\angular-locale_ss-sz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ss-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_ss-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ss.js">
+      <PackagePath>Scripts\i18n\angular-locale_ss.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ssy-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_ssy-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ssy.js">
+      <PackagePath>Scripts\i18n\angular-locale_ssy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_st-ls.js">
+      <PackagePath>Scripts\i18n\angular-locale_st-ls.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_st-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_st-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_st.js">
+      <PackagePath>Scripts\i18n\angular-locale_st.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sv-ax.js">
+      <PackagePath>Scripts\i18n\angular-locale_sv-ax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sv-fi.js">
+      <PackagePath>Scripts\i18n\angular-locale_sv-fi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sv-se.js">
+      <PackagePath>Scripts\i18n\angular-locale_sv-se.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sv.js">
+      <PackagePath>Scripts\i18n\angular-locale_sv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sw-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_sw-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sw-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_sw-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sw-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_sw-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_sw.js">
+      <PackagePath>Scripts\i18n\angular-locale_sw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_swc-cd.js">
+      <PackagePath>Scripts\i18n\angular-locale_swc-cd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_swc.js">
+      <PackagePath>Scripts\i18n\angular-locale_swc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ta-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_ta-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ta-lk.js">
+      <PackagePath>Scripts\i18n\angular-locale_ta-lk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ta-my.js">
+      <PackagePath>Scripts\i18n\angular-locale_ta-my.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ta-sg.js">
+      <PackagePath>Scripts\i18n\angular-locale_ta-sg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ta.js">
+      <PackagePath>Scripts\i18n\angular-locale_ta.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_te-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_te-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_te.js">
+      <PackagePath>Scripts\i18n\angular-locale_te.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_teo-ke.js">
+      <PackagePath>Scripts\i18n\angular-locale_teo-ke.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_teo-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_teo-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_teo.js">
+      <PackagePath>Scripts\i18n\angular-locale_teo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tg-cyrl-tj.js">
+      <PackagePath>Scripts\i18n\angular-locale_tg-cyrl-tj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tg-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_tg-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tg.js">
+      <PackagePath>Scripts\i18n\angular-locale_tg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_th-th.js">
+      <PackagePath>Scripts\i18n\angular-locale_th-th.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_th.js">
+      <PackagePath>Scripts\i18n\angular-locale_th.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ti-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_ti-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ti-et.js">
+      <PackagePath>Scripts\i18n\angular-locale_ti-et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ti.js">
+      <PackagePath>Scripts\i18n\angular-locale_ti.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tig-er.js">
+      <PackagePath>Scripts\i18n\angular-locale_tig-er.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tig.js">
+      <PackagePath>Scripts\i18n\angular-locale_tig.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tl.js">
+      <PackagePath>Scripts\i18n\angular-locale_tl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tn-bw.js">
+      <PackagePath>Scripts\i18n\angular-locale_tn-bw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tn-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_tn-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tn.js">
+      <PackagePath>Scripts\i18n\angular-locale_tn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_to-to.js">
+      <PackagePath>Scripts\i18n\angular-locale_to-to.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_to.js">
+      <PackagePath>Scripts\i18n\angular-locale_to.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tr-cy.js">
+      <PackagePath>Scripts\i18n\angular-locale_tr-cy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tr-tr.js">
+      <PackagePath>Scripts\i18n\angular-locale_tr-tr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tr.js">
+      <PackagePath>Scripts\i18n\angular-locale_tr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ts-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_ts-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ts.js">
+      <PackagePath>Scripts\i18n\angular-locale_ts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_twq-ne.js">
+      <PackagePath>Scripts\i18n\angular-locale_twq-ne.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_twq.js">
+      <PackagePath>Scripts\i18n\angular-locale_twq.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tzm-latn-ma.js">
+      <PackagePath>Scripts\i18n\angular-locale_tzm-latn-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tzm-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_tzm-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_tzm.js">
+      <PackagePath>Scripts\i18n\angular-locale_tzm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ug-arab-cn.js">
+      <PackagePath>Scripts\i18n\angular-locale_ug-arab-cn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ug-arab.js">
+      <PackagePath>Scripts\i18n\angular-locale_ug-arab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uk-ua.js">
+      <PackagePath>Scripts\i18n\angular-locale_uk-ua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uk.js">
+      <PackagePath>Scripts\i18n\angular-locale_uk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ur-in.js">
+      <PackagePath>Scripts\i18n\angular-locale_ur-in.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ur-pk.js">
+      <PackagePath>Scripts\i18n\angular-locale_ur-pk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ur.js">
+      <PackagePath>Scripts\i18n\angular-locale_ur.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz-arab-af.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz-arab-af.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz-arab.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz-arab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz-cyrl-uz.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz-cyrl-uz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz-cyrl.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz-cyrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz-latn-uz.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz-latn-uz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_uz.js">
+      <PackagePath>Scripts\i18n\angular-locale_uz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vai-latn-lr.js">
+      <PackagePath>Scripts\i18n\angular-locale_vai-latn-lr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vai-latn.js">
+      <PackagePath>Scripts\i18n\angular-locale_vai-latn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vai-vaii-lr.js">
+      <PackagePath>Scripts\i18n\angular-locale_vai-vaii-lr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vai-vaii.js">
+      <PackagePath>Scripts\i18n\angular-locale_vai-vaii.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vai.js">
+      <PackagePath>Scripts\i18n\angular-locale_vai.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ve-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_ve-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_ve.js">
+      <PackagePath>Scripts\i18n\angular-locale_ve.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vi-vn.js">
+      <PackagePath>Scripts\i18n\angular-locale_vi-vn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vi.js">
+      <PackagePath>Scripts\i18n\angular-locale_vi.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vo-001.js">
+      <PackagePath>Scripts\i18n\angular-locale_vo-001.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vo.js">
+      <PackagePath>Scripts\i18n\angular-locale_vo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vun-tz.js">
+      <PackagePath>Scripts\i18n\angular-locale_vun-tz.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_vun.js">
+      <PackagePath>Scripts\i18n\angular-locale_vun.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_wae-ch.js">
+      <PackagePath>Scripts\i18n\angular-locale_wae-ch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_wae.js">
+      <PackagePath>Scripts\i18n\angular-locale_wae.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_wal-et.js">
+      <PackagePath>Scripts\i18n\angular-locale_wal-et.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_wal.js">
+      <PackagePath>Scripts\i18n\angular-locale_wal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_xh-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_xh-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_xh.js">
+      <PackagePath>Scripts\i18n\angular-locale_xh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_xog-ug.js">
+      <PackagePath>Scripts\i18n\angular-locale_xog-ug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_xog.js">
+      <PackagePath>Scripts\i18n\angular-locale_xog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_yav-cm.js">
+      <PackagePath>Scripts\i18n\angular-locale_yav-cm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_yav.js">
+      <PackagePath>Scripts\i18n\angular-locale_yav.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_yo-bj.js">
+      <PackagePath>Scripts\i18n\angular-locale_yo-bj.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_yo-ng.js">
+      <PackagePath>Scripts\i18n\angular-locale_yo-ng.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_yo.js">
+      <PackagePath>Scripts\i18n\angular-locale_yo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zgh-ma.js">
+      <PackagePath>Scripts\i18n\angular-locale_zgh-ma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zgh.js">
+      <PackagePath>Scripts\i18n\angular-locale_zgh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-cn.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-cn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hans-cn.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hans-cn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hans-hk.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hans-hk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hans-mo.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hans-mo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hans-sg.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hans-sg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hans.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hans.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hant-hk.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hant-hk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hant-mo.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hant-mo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hant-tw.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hant-tw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hant.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hant.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-hk.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-hk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh-tw.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh-tw.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zh.js">
+      <PackagePath>Scripts\i18n\angular-locale_zh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zu-za.js">
+      <PackagePath>Scripts\i18n\angular-locale_zu-za.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\i18n\angular-locale_zu.js">
+      <PackagePath>Scripts\i18n\angular-locale_zu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\ionic-angular.js">
+      <PackagePath>Scripts\ionic-angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\ionic-angular.min.js">
+      <PackagePath>Scripts\ionic-angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\ionic.bundle.js">
+      <PackagePath>Scripts\ionic.bundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\ionic.bundle.min.js">
+      <PackagePath>Scripts\ionic.bundle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\ionic.js">
+      <PackagePath>Scripts\ionic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\ionic.min.js">
+      <PackagePath>Scripts\ionic.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\jquery-2.1.3.intellisense.js">
+      <PackagePath>Scripts\jquery-2.1.3.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\jquery-2.1.3.js">
+      <PackagePath>Scripts\jquery-2.1.3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\jquery-2.1.3.min.js">
+      <PackagePath>Scripts\jquery-2.1.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\jquery-custom.js">
+      <PackagePath>Scripts\jquery-custom.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\winstore-jscompat.js">
+      <PackagePath>Scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\packages.config">
+      <PackagePath>packages.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-animate.min.js.map">
+      <PackagePath>Scripts\angular-animate.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-aria.min.js.map">
+      <PackagePath>Scripts\angular-aria.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-cookies.min.js.map">
+      <PackagePath>Scripts\angular-cookies.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-loader.min.js.map">
+      <PackagePath>Scripts\angular-loader.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-messages.min.js.map">
+      <PackagePath>Scripts\angular-messages.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-resource.min.js.map">
+      <PackagePath>Scripts\angular-resource.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-route.min.js.map">
+      <PackagePath>Scripts\angular-route.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-sanitize.min.js.map">
+      <PackagePath>Scripts\angular-sanitize.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular-touch.min.js.map">
+      <PackagePath>Scripts\angular-touch.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\angular.min.js.map">
+      <PackagePath>Scripts\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\jquery-2.1.3.min.map">
+      <PackagePath>Scripts\jquery-2.1.3.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\errors.json">
+      <PackagePath>Scripts\errors.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\Scripts\version.json">
+      <PackagePath>Scripts\version.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\segimidae\documents\visual studio 2013\Projects\POS\POS\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
