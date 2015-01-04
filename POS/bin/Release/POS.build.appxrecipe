@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NIZAMSYS</Machine>
+    <WindowsUser>SaifulNizam</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b70258eb-c60b-465e-bdcf-938718cb1b11</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\POS.exe">
+      <PackagePath>POS.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\templates\browse.html">
+      <PackagePath>www\templates\browse.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\templates\login.html">
+      <PackagePath>www\templates\login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\templates\menu.html">
+      <PackagePath>www\templates\menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\templates\playlist.html">
+      <PackagePath>www\templates\playlist.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\templates\playlists.html">
+      <PackagePath>www\templates\playlists.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\templates\search.html">
+      <PackagePath>www\templates\search.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular-ui\angular-ui-router.js">
+      <PackagePath>www\lib\ionic\js\angular-ui\angular-ui-router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular-ui\angular-ui-router.min.js">
+      <PackagePath>www\lib\ionic\js\angular-ui\angular-ui-router.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular-animate.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular-animate.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular-resource.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-resource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular-resource.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-resource.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular-sanitize.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular-sanitize.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular.js">
+      <PackagePath>www\lib\ionic\js\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\angular\angular.min.js">
+      <PackagePath>www\lib\ionic\js\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\js\controllers.js">
+      <PackagePath>www\js\controllers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\POS.xr.xml">
+      <PackagePath>POS.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaifulNizam\Desktop\LocalHtmlContent\POS\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

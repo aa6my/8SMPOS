@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75B1F300-850D-4B19-B873-4D4B92F1F8ED}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POS</RootNamespace>
+    <AssemblyName>POS</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>POS_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <TargetFrameworkVersion />
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>7FF0BBCF7D9AB0024237BFF3F23EEA66384703DD</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\HttpService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="www\css\style.css" />
+    <Content Include="www\index.html" />
+    <Content Include="www\lib\ionic\js\angular-ui\angular-ui-router.js" />
+    <Content Include="www\lib\ionic\js\angular-ui\angular-ui-router.min.js" />
+    <Content Include="www\lib\ionic\js\angular\angular-animate.js" />
+    <Content Include="www\lib\ionic\js\angular\angular-animate.min.js" />
+    <Content Include="www\lib\ionic\js\angular\angular-resource.js" />
+    <Content Include="www\lib\ionic\js\angular\angular-resource.min.js" />
+    <Content Include="www\lib\ionic\js\angular\angular-sanitize.js" />
+    <Content Include="www\lib\ionic\js\angular\angular-sanitize.min.js" />
+    <Content Include="www\lib\ionic\js\angular\angular.js" />
+    <Content Include="www\lib\ionic\js\angular\angular.min.js" />
+    <Content Include="www\lib\ionic\js\ionic-angular.js" />
+    <Content Include="www\lib\ionic\js\ionic-angular.min.js" />
+    <Content Include="www\lib\ionic\js\ionic.bundle.js" />
+    <Content Include="www\lib\ionic\js\ionic.bundle.min.js" />
+    <Content Include="www\lib\ionic\js\ionic.js" />
+    <Content Include="www\lib\ionic\js\ionic.min.js" />
+    <Content Include="www\templates\browse.html" />
+    <Content Include="www\templates\login.html" />
+    <Content Include="www\templates\menu.html" />
+    <Content Include="www\templates\playlist.html" />
+    <Content Include="www\templates\playlists.html" />
+    <Content Include="www\templates\search.html" />
+    <None Include="POS_TemporaryKey.pfx" />
+    <None Include="www\lib\ionic\fonts\ionicons.eot" />
+    <Content Include="www\lib\ionic\fonts\ionicons.ttf" />
+    <None Include="www\lib\ionic\fonts\ionicons.woff" />
+    <None Include="www\lib\ionic\scss\ionic.scss" />
+    <None Include="www\lib\ionic\scss\ionicons\ionicons.scss" />
+    <None Include="www\lib\ionic\scss\ionicons\_ionicons-animation.scss" />
+    <None Include="www\lib\ionic\scss\ionicons\_ionicons-font.scss" />
+    <None Include="www\lib\ionic\scss\ionicons\_ionicons-icons.scss" />
+    <None Include="www\lib\ionic\scss\ionicons\_ionicons-variables.scss" />
+    <None Include="www\lib\ionic\scss\_action-sheet.scss" />
+    <None Include="www\lib\ionic\scss\_animations.scss" />
+    <None Include="www\lib\ionic\scss\_backdrop.scss" />
+    <None Include="www\lib\ionic\scss\_badge.scss" />
+    <None Include="www\lib\ionic\scss\_bar.scss" />
+    <None Include="www\lib\ionic\scss\_button-bar.scss" />
+    <None Include="www\lib\ionic\scss\_button.scss" />
+    <None Include="www\lib\ionic\scss\_checkbox.scss" />
+    <None Include="www\lib\ionic\scss\_form.scss" />
+    <None Include="www\lib\ionic\scss\_grid.scss" />
+    <None Include="www\lib\ionic\scss\_items.scss" />
+    <None Include="www\lib\ionic\scss\_list.scss" />
+    <None Include="www\lib\ionic\scss\_loading.scss" />
+    <None Include="www\lib\ionic\scss\_menu.scss" />
+    <None Include="www\lib\ionic\scss\_mixins.scss" />
+    <None Include="www\lib\ionic\scss\_modal.scss" />
+    <None Include="www\lib\ionic\scss\_platform.scss" />
+    <None Include="www\lib\ionic\scss\_popover.scss" />
+    <None Include="www\lib\ionic\scss\_popup.scss" />
+    <None Include="www\lib\ionic\scss\_progress.scss" />
+    <None Include="www\lib\ionic\scss\_radio.scss" />
+    <None Include="www\lib\ionic\scss\_range.scss" />
+    <None Include="www\lib\ionic\scss\_reset.scss" />
+    <None Include="www\lib\ionic\scss\_scaffolding.scss" />
+    <None Include="www\lib\ionic\scss\_select.scss" />
+    <None Include="www\lib\ionic\scss\_slide-box.scss" />
+    <None Include="www\lib\ionic\scss\_tabs.scss" />
+    <None Include="www\lib\ionic\scss\_toggle.scss" />
+    <None Include="www\lib\ionic\scss\_transitions.scss" />
+    <None Include="www\lib\ionic\scss\_type.scss" />
+    <None Include="www\lib\ionic\scss\_util.scss" />
+    <None Include="www\lib\ionic\scss\_variables.scss" />
+    <None Include="www\lib\ionic\version.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="www\img\ionic.png" />
+    <Content Include="www\js\app.js" />
+    <Content Include="www\js\controllers.js" />
+    <Content Include="www\lib\ionic\css\ionic.css" />
+    <Content Include="www\lib\ionic\css\ionic.min.css" />
+    <Content Include="www\lib\ionic\fonts\ionicons.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
