@@ -30,8 +30,7 @@ Project > Store > Create App Packages > No & Next > Create
 
 #### <i class="icon-hdd"></i> Install using powershell
 ```
--powershell		
--add-appxpackage pos.appx
+add-appxpackage pos.appx
 ```
 
 ### Version
